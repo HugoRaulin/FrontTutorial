@@ -1,0 +1,32 @@
+
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 1rem;
+}
+
+h1, h2 {
+    color: pink;
+}
+
+#secondHeader {
+    background-color: darkred;
+}
+
+.bigText {
+    font-family: "Candara Light";
+}
+
+.green {
+    color: green;
+}
+
+div {
+    background-color: gray;
+    color: red;
+}
+
+span {
+    text-transform: uppercase;
+}

@@ -1,0 +1,27 @@
+/*
+  border vs outline
+  outline quand on veux bouger la 'border' grace a outline-offset
+  border si on veux un bord round
+*/
+
+.buttons {
+  margin: 3rem;
+}
+
+a {
+  background: green;
+  text-decoration: none;
+  padding: 1.2rem 1.5rem;
+  color: black;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#one {
+  border: 0.2rem solid black;
+}
+
+#two {
+  outline: 0.2rem solid black;
+  outline-offset: -10px;
+}

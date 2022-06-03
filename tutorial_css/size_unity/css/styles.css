@@ -1,0 +1,45 @@
+.outer {
+    width: 200px;
+    height: 200px;
+    background: blue;
+}
+
+.inner {
+    width: 50%;
+    height: 50%;
+    background: red;
+}
+
+html {
+    font-size: 50px;
+}
+
+div {
+    font-size: 10px;
+}
+
+.relative-root {
+    font-size: 2rem;
+}
+
+.relative {
+    font-size: 2em;
+    /*position: relative;*/
+}
+
+.absolut {
+    font-size: 32px;
+    /*position: absolute;*/
+}
+
+.header {
+    width: 100vw;
+    height: 100vh;
+    background: blue;
+}
+
+.banner {
+    width: 50vw;
+    height: 50vh;
+    background: red;
+}

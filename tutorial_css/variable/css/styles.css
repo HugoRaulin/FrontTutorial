@@ -1,0 +1,35 @@
+/*
+CSS VARIABLES AKA Custom Properties
+hold a value and reuse it
+--varName:value
+property::var(--varName)
+scope
+:root{} === global
+element === local
+any property
+*/
+
+:root {
+  --primaryColor: #f15025;
+  --secondaryColor: grey;
+  --mainTransition:all 0.4s linear;
+}
+.heading{
+  color:var(--primaryColor);
+}
+.second-heading{
+  color:var(--primaryColor);
+  transition: var(--mainTransition);
+}
+.second-heading:hover{
+  color:var(--secondaryColor)
+}
+div{
+  --primaryColor: red;
+}
+.main-text{
+  color:var(--primaryColor)
+}
+.third-heading{
+  color:var(--secondaryColor)
+}

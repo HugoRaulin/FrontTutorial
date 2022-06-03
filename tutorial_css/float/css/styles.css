@@ -1,0 +1,32 @@
+.banner {
+  border: 5px solid red;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.one {
+  float: right;
+  margin-left: 50px;
+}
+
+.elem-1, .elem-2, .elem-3 {
+  float: left;
+  height: 300px;
+  width: 33.33%;
+}
+
+.elem-1 {
+  background: red;
+}
+
+.elem-2 {
+  background: blue;
+}
+
+.elem-3 {
+  background: green;
+}
+
+h {
+  clear: both;
+}
